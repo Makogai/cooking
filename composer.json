@@ -15,8 +15,7 @@
         "jeroennoten/laravel-adminlte": "^3.5",
         "laravel/framework": "^8.12",
         "laravel/tinker": "^2.5",
-        "laravel/ui": "^3.2",
-        "sebastienheyd/boilerplate": "^7.3"
+        "laravel/ui": "^3.2"
     },
     "require-dev": {
         "facade/ignition": "^2.5",
@@ -40,7 +39,8 @@
         "psr-4": {
             "App\\": "app/",
             "Database\\Factories\\": "database/factories/",
-            "Database\\Seeders\\": "database/seeders/"
+            "Database\\Seeders\\": "database/seeders/",
+            "Sebastienheyd\\Boilerplate\\": "packages/sebastienheyd/boilerplate/src"
         }
     },
     "autoload-dev": {

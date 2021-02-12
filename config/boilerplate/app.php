@@ -11,5 +11,5 @@ return [
     'redirectTo' => 'boilerplate.dashboard',
 
     // Backend locale
-    'locale'     => config('app.locale'),
+    'locale'     => 'sr',
 ];
